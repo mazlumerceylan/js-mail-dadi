@@ -1,0 +1,27 @@
+#accesso {
+	text-align: center;
+	margin-top: 50px;
+}
+
+#gioco {
+	text-align: center;
+	margin-top: 50px;
+}
+
+#risultato-giocatore, #risultato-computer {
+	display: inline-block;
+	margin: 30px;
+}
+
+h2, h3 {
+	margin-top: 0;
+}
+
+img {
+	width: 150px;
+}
+
+p {
+	font-size: 24px;
+	font-weight: bold;
+}

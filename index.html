@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gioco Dei Dadi</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div id="accesso">
+		<h1>Gioco dei dadi</h1>
+		<label for="email">Inserisci la tua email per accedere al gioco:</label>
+		<input type="email" id="email" required>
+		<button onclick="verificaEmail()">Accedi</button>
+	</div>
+	<div id="gioco" style="display:none;">
+		<h2>Tira i dadi!</h2>
+		<div id="risultato-giocatore">
+			<h3>Giocatore</h3>
+			<img src="" alt="" id="dado-giocatore">
+			<p id="punteggio-giocatore"></p>
+		</div>
+		<div id="risultato-computer">
+			<h3>Computer</h3>
+			<img src="" alt="" id="dado-computer">
+			<p id="punteggio-computer"></p>
+		</div>
+		<button onclick="gioca()">Gioca</button>
+	</div>
+
+    
+  <script src="js/script.js"></script>
+</body>
+</html>
